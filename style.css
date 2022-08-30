@@ -4,11 +4,17 @@
   .img {
     width: 100%;
   }
+  img {
+    border-radius: 10px;
+  }
 }
 
 @media (min-width: 1285px) {
   .img {
     width: 50%;
+  }
+  img {
+    border-radius: 10px;
   }
 }
 
@@ -46,13 +52,11 @@ p {
   /* border: solid rgb(221, 2, 130) 3px; */
   display: flex;
   margin: auto;
-  
 }
 
-.img img {
+img {
   /* border: solid rgb(2, 144, 221) 3px; */
   max-width: 100%;
-  border-radius: 20px;
 }
 
 .social-icons {

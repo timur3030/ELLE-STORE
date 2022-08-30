@@ -46,11 +46,13 @@ p {
   /* border: solid rgb(221, 2, 130) 3px; */
   display: flex;
   margin: auto;
+  
 }
 
-img {
+.img img {
   /* border: solid rgb(2, 144, 221) 3px; */
   max-width: 100%;
+  border-radius: 20px;
 }
 
 .social-icons {
@@ -61,11 +63,11 @@ img {
 }
 
 .social {
-  width: 3em;
+  width: 2em;
   /* border: solid rgb(175, 132, 132) 3px; */
 }
 
 li {
   /* border: solid rgb(2, 144, 221) 3px; */
-  margin: 0 20px;
+  margin: 0 25px;
 }

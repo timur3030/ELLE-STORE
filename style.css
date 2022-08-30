@@ -1,17 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 body {
   background-color: #292929;
   color: #ffffff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+  /* background-image: url(/images/coat3.jpeg); */
 }
 
-h1,h2 {
-    text-align: center;
+h1,
+h2 {
+  text-align: center;
 }
 
-img {
-    width: 30%;
-    display: block;
-    margin: auto;
+/* img { */
+  /* width: 100%; */
+  /* display: block; */
+  /* margin: auto; */
+/* } */
+
+.imgclass {
+  /* border: solid red 10px; */
+  /* background-image: hre(.//); */
+  /* background-size: cover; */
+  background-image: url(../images/coat3.jpeg);
+  background-size: cover;
+  height: 600px;
+}
+
+.row {
+  border: solid red 1px;
+  background-image: url(/images/coat3.jpeg);
+}
+
+#ddd {
+  background-image: url(/images/coat3.jpeg);
+}
+
+.social {
+  width: 50px;
+  border: solid red 1x;
 }

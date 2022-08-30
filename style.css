@@ -4,7 +4,6 @@ body {
   background-color: #292929;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
-  /* background-image: url(/images/coat3.jpeg); */
 }
 
 h1,
@@ -12,31 +11,23 @@ h2 {
   text-align: center;
 }
 
-/* img { */
-  /* width: 100%; */
+img {
+  width: 50%;
   /* display: block; */
   /* margin: auto; */
-/* } */
-
-.imgclass {
-  /* border: solid red 10px; */
-  /* background-image: hre(.//); */
-  /* background-size: cover; */
-  background-image: url(../images/coat3.jpeg);
-  background-size: cover;
-  height: 600px;
 }
 
 .row {
   border: solid red 1px;
-  background-image: url(/images/coat3.jpeg);
 }
 
-#ddd {
-  background-image: url(/images/coat3.jpeg);
-}
 
 .social {
-  width: 50px;
+  width: 2em;
   border: solid red 1x;
+}
+
+.social-icons {
+  display: flex;
+  list-style: none;
 }

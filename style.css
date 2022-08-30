@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-@media (max-width: 750px) {
+@media (max-width: 1284px) {
   .img {
     width: 100%;
   }
 }
 
-@media (min-width: 751px) {
+@media (min-width: 1285px) {
   .img {
     width: 50%;
   }

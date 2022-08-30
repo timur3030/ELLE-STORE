@@ -36,7 +36,8 @@ footer {
 } */
 
 h1,
-h2 {
+h2,
+p {
   text-align: center;
   /* border: solid rgb(2, 144, 221) 3px; */
 }

@@ -1,8 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-@media screen and (max-width: 767px) {
+@media (max-width: 750px) {
   .img {
     width: 100%;
+  }
+}
+
+@media (min-width: 751px) {
+  .img {
+    width: 50%;
   }
 }
 
@@ -38,13 +44,11 @@ h2 {
 .img {
   /* border: solid rgb(221, 2, 130) 3px; */
   display: flex;
-  width: 50%;
   margin: auto;
 }
 
 img {
   /* border: solid rgb(2, 144, 221) 3px; */
-  display: block;
   max-width: 100%;
 }
 

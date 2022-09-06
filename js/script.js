@@ -1,9 +1,9 @@
 "use strict";
 
-const inputRub = document.querySelector("#rub"),
-  inputUsd = document.querySelector("#usd");
+const inputLira = document.querySelector("#lira"),
+  inputRub = document.querySelector("#rub");
 
-inputRub.addEventListener("input", () => {
+  inputLira.addEventListener("input", () => {
   const request = new XMLHttpRequest();
 
   request.open("GET", "js/current.json");
@@ -13,9 +13,9 @@ inputRub.addEventListener("input", () => {
   request.addEventListener("load", () => {
     if (request.status === 200) {
       const data = JSON.parse(request.response);
-      inputUsd.value = (+inputRub.value / data.current.usd).toFixed(2);
+      inputRub.value = (+inputLira.value / data.current.rub).toFixed(2);
     } else {
-      inputUsd.value = "Что-то пошло не так";
+      inputRub.value = "Что-то пошло не так";
     }
   });
 });

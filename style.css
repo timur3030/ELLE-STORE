@@ -85,7 +85,6 @@ li {
 
 .converter {
   margin: auto;
-  border: solid rgb(2, 144, 221) 3px;
   display: flex;
   justify-content: center;
   margin-top: 10px;
@@ -96,11 +95,11 @@ section {
 }
 
 input {
-  height: 2em;
-  width: 15em;
+  width: 10em;
+  font-size: 1.5em;
 }
 
 label {
-  line-height: 2em;
   padding-right: 30px;
+  font-size: 1.6em;
 }

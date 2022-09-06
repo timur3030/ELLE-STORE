@@ -62,7 +62,11 @@ h1,
 h2,
 p {
   text-align: center;
-  /* border: solid rgb(2, 144, 221) 3px; */
+  /* border: solid rgb(2, 144, 221) 2px; */
+}
+
+.converterMain {
+  margin-bottom: 20px;
 }
 
 .img {

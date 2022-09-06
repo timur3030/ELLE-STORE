@@ -16,6 +16,10 @@
   img {
     border-radius: 5px;
   }
+  /* footer {
+    display: flex;
+    justify-content: center;
+  } */
 }
 
 * {
@@ -50,7 +54,7 @@ p {
 
 .img {
   /* border: solid rgb(221, 2, 130) 3px; */
-  display: flex;
+  /* display: flex; */
   margin: auto;
 }
 
@@ -74,4 +78,14 @@ img {
 li {
   /* border: solid rgb(2, 144, 221) 3px; */
   margin: 0 25px;
+}
+
+.converter {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  margin-bottom: 20px;
 }

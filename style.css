@@ -124,3 +124,12 @@ label {
   max-height: 100%;
   margin: auto;
 }
+
+.imgLogo {
+  display: block;
+  max-width: 150px;
+  margin: auto;
+  border: #ffffff 3px solid;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}

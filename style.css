@@ -130,6 +130,6 @@ label {
   max-width: 5em;
   margin: auto;
   border: #ffffff 3px solid;
-  border-radius: 20px;
+  border-radius: 50%;
   margin-bottom: 20px;
 }

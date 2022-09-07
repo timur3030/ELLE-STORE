@@ -7,9 +7,6 @@
 }
 
 @media (max-width: 1284px) {
-  .img {
-    width: 100%;
-  }
   img {
     border-radius: 5px;
   }
@@ -22,9 +19,6 @@
 }
 
 @media (min-width: 1285px) {
-  .img {
-    width: 50%;
-  }
   img {
     border-radius: 5px;
   }
@@ -38,11 +32,6 @@
   .brand {
     height: 250px;
   }
-  
-  /* footer {
-    display: flex;
-    justify-content: center;
-  } */
 }
 
 * {
@@ -57,17 +46,11 @@ body {
 }
 
 header {
-  /* border: solid rgb(225, 0, 0) 6px; */
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-/* section {
-  border: solid rgb(3, 190, 0) 6px;
-} */
-
 footer {
-  /* border: solid rgb(225, 225, 0) 6px; */
   margin-bottom: 20px;
 }
 
@@ -75,21 +58,13 @@ h1,
 h2,
 p {
   text-align: center;
-  /* border: solid rgb(2, 144, 221) 2px; */
 }
 
 .converterMain {
   margin-bottom: 20px;
 }
 
-.img {
-  /* border: solid rgb(221, 2, 130) 3px; */
-  /* display: flex; */
-  margin: auto;
-}
-
 img {
-  /* border: solid rgb(2, 144, 221) 3px; */
   max-width: 100%;
 }
 
@@ -98,16 +73,13 @@ img {
   justify-content: center;
   list-style: none;
   margin: 10px auto 10px;
-  /* border: solid red 3px; */
 }
 
 .social {
   width: 2em;
-  /* border: solid rgb(175, 132, 132) 3px; */
 }
 
 li {
-  /* border: solid rgb(2, 144, 221) 3px; */
   margin: 0 25px;
 }
 
@@ -142,7 +114,6 @@ label {
   border: solid rgb(0, 0, 0) 3px;
   margin: 15px;
   box-sizing: border-box;
-  /* background-color: #ffffff; */
   background: #ffffff;
   border-radius: 15px;
   display: flex;

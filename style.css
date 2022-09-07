@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+@media (max-width: 700px) {
+  .brand {
+    max-height: 100px;
+  }
+}
+
 @media (max-width: 1284px) {
   .img {
     width: 100%;
@@ -9,6 +15,9 @@
   }
   .converter {
     margin: auto;
+  }
+  .brand {
+    height: 200px;
   }
 }
 
@@ -26,6 +35,10 @@
   .converter {
     margin-right: 50px;
   }
+  .brand {
+    height: 250px;
+  }
+  
   /* footer {
     display: flex;
     justify-content: center;
@@ -116,4 +129,26 @@ input {
 label {
   padding-right: 30px;
   font-size: 1.6em;
+}
+
+.brands {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.brand {
+  flex-basis: 35%;
+  border: solid rgb(0, 0, 0) 3px;
+  margin: 15px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 15px;
+  display: flex;
+}
+
+.imgBlock {
+  display: block;
+  max-height: 100%;
+  margin: auto;
 }

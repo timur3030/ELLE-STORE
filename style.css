@@ -142,7 +142,8 @@ label {
   border: solid rgb(0, 0, 0) 3px;
   margin: 15px;
   box-sizing: border-box;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
+  background: #ffffff;
   border-radius: 15px;
   display: flex;
 }

@@ -127,9 +127,9 @@ label {
 
 .imgLogo {
   display: block;
-  max-width: 4em;
+  max-width: 5em;
   margin: auto;
   border: #ffffff 3px solid;
-  border-radius: 50%;
+  border-radius: 20px;
   margin-bottom: 20px;
 }

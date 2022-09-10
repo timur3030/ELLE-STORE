@@ -4,6 +4,10 @@
   .brand {
     max-height: 100px;
   }
+  .calc {
+    min-width: 90%;
+    padding: 5px;
+  }
 }
 
 @media (max-width: 1284px) {
@@ -15,6 +19,10 @@
   }
   .brand {
     height: 200px;
+  }
+  .calc {
+    width: 70%;
+    padding: 10px;
   }
 }
 
@@ -32,6 +40,10 @@
   .brand {
     height: 250px;
   }
+  .calc {
+    width: 70%;
+    padding: 10px;
+  }
 }
 
 * {
@@ -46,7 +58,7 @@ body {
 }
 
 header {
-  margin-top: 20px;
+  padding-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -91,6 +103,12 @@ li {
 
 section {
   margin-bottom: 20px;
+}
+
+.calc {
+  margin: 0 auto 20px;
+  border: solid 1px #ffffff;
+  border-radius: 20px;
 }
 
 input {
